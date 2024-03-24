@@ -17,7 +17,7 @@ function Converter() {
       return;
     }
 
-    const lightYears = kmInput / 9.461e12; // Fator de conversão aproximado
+    const lightYears = kmInput / 9.461e12;
     const newLog = [...conversionLog, { date: getCurrentDate(), km: kmInput, lightYears: lightYears.toFixed(10) }];
     setConversionLog(newLog);
     setKmInput('');
@@ -29,7 +29,7 @@ function Converter() {
       return;
     }
 
-    const km = lightYearsInput * 9.461e12; // Fator de conversão aproximado
+    const km = lightYearsInput * 9.461e12;
     const newLog = [...conversionLog, { date: getCurrentDate(), km: km.toFixed(2), lightYears: lightYearsInput }];
     setConversionLog(newLog);
     setLightYearsInput('');
