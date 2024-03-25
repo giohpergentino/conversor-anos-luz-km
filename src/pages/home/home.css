@@ -1,0 +1,66 @@
+.container {
+  margin: 0 auto;
+  padding-inline: 10vw;
+  padding-block: 5vw;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group h2 {
+  margin-bottom: 10px;
+}
+
+input[type="number"], button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  width: 300px;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table caption {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table td {
+  text-align: center;
+}
+
+
+.dataTable{
+  width: 100%;
+  display: flex;
+}
