@@ -1,0 +1,15 @@
+.footerContainer{
+  width: 100%;
+  background-color: rgb(53, 53, 53);
+  padding-block: 20px;
+  text-align: center;
+}
+
+.footerContainer > a{
+  text-decoration: none;
+  color: white;
+}
+
+.footerContainer > a:hover{
+  color: rgb(195, 195, 195);
+}

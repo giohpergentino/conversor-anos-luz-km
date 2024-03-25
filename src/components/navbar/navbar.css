@@ -1,37 +1,39 @@
 .containerNavbar{
-  width: 100vw;
+  width: 100%;
   height: 10vh;
+  background-color: #333; 
+  padding: 10px 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav {
-    background-color: #333; 
-    padding: 10px 0; 
-  }
+.actions {
+  height: 10vh;
+  list-style-type: none; 
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.actions > li { 
+    margin-right: 10px; 
+}
   
-  ul {
-    list-style-type: none; 
-    padding: 0; 
-  }
-  
-  li {
-    display: inline; 
-    margin-right: 20px; 
-  }
-  
-  a {
+.actions > a {
     color: white; 
     text-decoration: none; 
-  }
+}
   
-  button {
-    background-color: #4CAF50; 
-    color: white; 
-    border: none;
-    padding: 10px 20px; 
-    cursor: pointer; 
-  }
-  
-  button:hover {
+.actions > button:hover {
     background-color: #45a049; 
-  }
-  
+}
+
+.iconProfile *{
+  font-size: 40px;
+}
+
+.containerNavbar > h2{
+  margin-left: 50px;
+  color: #a7a5a5;
+}

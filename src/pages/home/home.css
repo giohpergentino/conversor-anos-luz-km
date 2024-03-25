@@ -1,7 +1,7 @@
 .container {
-  max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding-inline: 10vw;
+  padding-block: 5vw;
 }
 
 .input-group {
@@ -57,4 +57,10 @@ table th {
 
 table td {
   text-align: center;
+}
+
+
+.dataTable{
+  width: 100%;
+  display: flex;
 }
