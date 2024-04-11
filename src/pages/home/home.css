@@ -15,6 +15,11 @@
 input[type="number"], button {
   padding: 8px;
   font-size: 16px;
+
+  @media (max-width: 700px){
+    padding: 5px;
+    font-size: 14px;
+  }
 }
 
 input[type="number"] {
@@ -32,6 +37,12 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+.button-convert {
+  @media (max-width: 700px){
+    margin-top: 5px;
+  }
 }
 
 table {

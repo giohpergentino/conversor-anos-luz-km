@@ -29,6 +29,12 @@ padding: 12px;
 border-radius: 10px;
 transition: transform 0.3s ease;
 box-shadow: 1px 1px 3px black;
+
+@media (max-width: 700px){
+  padding: 5px;
+  margin: 15px;
+  font-size: 16px;
+}
 }
 
 .list > li:hover {

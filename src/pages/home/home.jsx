@@ -44,7 +44,7 @@ export default function Home() {
             <div className="input-group">
               <h2>Converter de KM para Anos-luz</h2>
               <input type="number" value={kmInput} onChange={(e) => setKmInput(e.target.value)} placeholder="Insira a distância em KM" />
-              <button onClick={convertToLightYears}>Converter</button>
+              <button className="button-convert" onClick={convertToLightYears}>Converter</button>
               {kmInput && !isNaN(parseFloat(kmInput)) && parseFloat(kmInput) >= 1 && (
                 <p>{(parseFloat(kmInput) / 9.461e12).toFixed(10)} Anos-luz</p>
               )}
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="input-group">
               <h2>Converter de Anos-luz para KM</h2>
               <input type="number" value={lightYearsInput} onChange={(e) => setLightYearsInput(e.target.value)} placeholder="Insira a distância em Anos-luz" />
-              <button onClick={convertToKm}>Converter</button>
+              <button  className="button-convert" onClick={convertToKm}>Converter</button>
               {lightYearsInput && !isNaN(parseFloat(lightYearsInput)) && parseFloat(lightYearsInput) >= 1 && (
                 <p>{(parseFloat(lightYearsInput) * 9.461e12).toFixed(2)} KM</p>
               )}
